@@ -4,4 +4,5 @@
  Estou aprendendo a criar sites e agora vou gerenciar meus 
  repositórios!
 
- <a href="">
+ <a href="https://rodrigosena2.github.io/html-css/exercicios/ex001/"Executar o exercício 001>
+

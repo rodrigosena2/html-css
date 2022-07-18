@@ -1,0 +1,144 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: 'idroid';
+    src: url(fontes/idroid.otf);
+    font-weight: bolder;
+    font-style: normal;
+}
+
+*{
+    box-sizing: border-box;
+    margin: 0 auto;
+    
+}
+img {
+    width: 100%;
+}
+
+body {
+    background-color: #e4e194ad;
+}
+
+header {
+    background-image: linear-gradient(to bottom, #56bb8ad5,#327758,#27684b,#1b4332);
+    padding: 50px;
+    color: white;
+    
+}
+
+header > h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+
+}
+
+header > h2 {
+    font-size: 18px;
+    text-align: center;
+}
+
+
+    
+a {
+    text-decoration: none;
+    color: white;
+    font-weight: bolder;
+    font-size: 18px;
+    text-align: start;
+    padding: 5px;
+    margin: 1px;
+}
+
+a:hover {
+    background-color: #4b7f65d9;
+    text-decoration: underline;
+    color: #74c69d;
+}
+
+main {
+    height: 2300px;
+    width: 840px;
+    padding: 20px;
+    margin: auto;
+    border-radius: 10px;
+    
+    background-color: white;
+}
+
+main > h1 {
+    text-align: start;
+    color: #27684b;
+    font-family: idroid;
+    font-size: 20px;
+    text-align: start;
+    padding: 2px;
+    
+    
+}
+
+main > h2 {
+    font-family: idroid;
+    color: #27684b;
+    text-align: start;
+    padding: 2px;
+}
+
+main > p {
+    text-align: justify;
+    text-indent: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+main > img{
+    margin: auto;
+    display: block;
+}
+
+img {
+    margin: auto;
+    display: block;
+}
+
+.lista {
+    background-color: #7ad6a89e;
+    border-radius: 10px;
+    text-align: start;
+    text-indent: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.lista > p{
+    text-align: justify;
+    text-indent: 40px;
+    font-size: 18px;
+   
+}
+.lista > h3 {
+    color: white;
+    background-color: #3ca173e6;
+    padding: 10px;
+    border-radius: 10px 10px 0px 0px;
+}
+
+#lista1 {
+    font-size: 20px;
+    text-decoration: underline;
+}
+#lista2{
+    font-size: 20px;
+    text-decoration: underline;
+}
+
+.link {
+    color: #257f59;
+
+
+}
+footer{
+    background-color: #1b4332;
+    text-align: center;
+    color: white;
+    padding: 10px;
+}
+
+

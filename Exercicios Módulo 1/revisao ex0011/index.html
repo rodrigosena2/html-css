@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Revisão de imagens dinâmicas e audios</title>
+</head>
+<body>
+    <h1>Imagens dinâmicas, áudios e videos</h1>
+    <h2>Abaixo uma imagem dinâmica que se adaptará ao tamanho da janela ou dispositivo.</h2>
+    <p>
+        <picture> 
+            <!-- Sempre coloque em ordem do menor para o maior no código, a imagem principal sempre tem que ficar na ultima linha do código-->
+            <source media="(max-width: 750px )" srcset="imagens/fotop.png" type="image/png">
+            <source media="(max-width: 1050px )" srcset="imagens/fotom.png" type="image/png">
+            <img src="imagens/fotog.png" alt="A imagem flexível funciona">
+        </picture>
+    </p>
+    <h2>Como vocês viram, a imagem flexível funciona.</h2>
+    <h3>Agora colocarei um áudio para vocês ouvirem</h3>
+    <p>
+        <audio preload="metadata" controls >
+            <source src="media/guanacast-33.mp3" type="audio/mpeg">
+            <p>Seu navegador não suporta áudio? <a href="media/guanacast-33.mp3" download="guanacast-33.mp3" type="audio/mpeg"> </a></p>
+        </audio>
+    </p>
+    <h2>Pronto, acima vocês viram uma imagens dinâmicas e áudios, logo abaixo mostrarei como funciona o video.</h2>
+    <h3>Agora coloquei o video</h3>
+    <p>
+        <video width="600" poster="imagens/limoes-capa.png" controls>
+            <source src="media/meu-video.mp4" type="video/mp4">
+            <p>Infelizmente seu navegador não conseguiu carregar o vídeo.</p>
+        </video>
+        <h3>Abaixo estarei testando a função incorporar do youtube e outros site, usando a tag &lt;iframe&gt;</h3>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/6i5f469qkV8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </p>
+    
+</body>
+</html>

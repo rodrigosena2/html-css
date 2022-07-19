@@ -14,10 +14,11 @@ body {
 main {
     background-color: white;
     min-width: 320px;
-    max-width: 1500px;
+    max-width: 1600px;
     margin: auto;
     border-radius: 20px;
     box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.693);
+    
 }
 
 main h1 {

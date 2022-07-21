@@ -3,7 +3,8 @@
 
 
 header {
-    width: auto;
+    display: block;
+    max-width: auto;
     height: 200px;
     margin: auto;
     background-color: black;
@@ -17,6 +18,8 @@ h1 {
  header > p {
     text-align: center;
    
-    
-    
+ }
+
+ .normal {
+    background-color: white;
  }

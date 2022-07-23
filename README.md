@@ -9,4 +9,6 @@
  <a href="https://rodrigosena2.github.io/projeto-android/">Executar o projeto android</a>
  <br>
  <a href="https://rodrigosena2.github.io/html-css/modulo3/d002/">Executar receita de waffle</a>
+ <br>
+ <a href="https://rodrigosena2.github.io/html-css/modulo3/d012/index.html">Executar versão teste do Projeto Cordel</a>
 

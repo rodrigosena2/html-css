@@ -19,6 +19,11 @@
      <a href="https://rodrigosena2.github.io/html-css/modulo3/d002/">Executar receita de waffle</a>
      </li>
      <br>
-     <li><a href="https://rodrigosena2.github.io/html-css/modulo3/d012/index.html">Executar versão teste do Projeto Cordel</a></li>
+     <li><a href="https://rodrigosena2.github.io/html-css/modulo3/d012/index.html">Executar versão teste do Projeto Cordel</a>
+     </li>
+     <br>
+     <li>
+     <a href="https://rodrigosena2.github.io/html-css/modulo3/d012b/index.html">Executar versão final do Projeto Cordel </a>
+     </li>
  </ul>
 

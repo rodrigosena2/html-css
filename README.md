@@ -25,5 +25,9 @@
      <li>
      <a href="https://rodrigosena2.github.io/html-css/modulo3/d012b/index.html">Executar versão final do Projeto Cordel </a>
      </li>
+     <br>
+     <li>
+     <a href="https://rodrigosena2.github.io/projeto-social/">Executar o projeto de redes sociais</a>
+     </li>
  </ul>
 
